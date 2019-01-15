@@ -1,0 +1,180 @@
+
+
+body {
+  
+  width: 800px;
+  height: 600px;
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+}
+
+#all {
+  width: 800px;
+  height: auto;
+  background-color: lightgray;
+  border-color: #8b8b8b;
+  border-style: solid;
+  
+}
+
+ul#horizontal-list {
+  position: relative;
+  text-align: center;
+  list-style-type: none;
+  
+  
+}
+
+ul#horizontal-list li {
+  
+  display: inline;
+  border-style: outset;
+  border-color: #bababa;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  
+  
+}
+
+ul#horizontal-list a {
+  
+  text-decoration: none;
+  color: rgba(221, 0, 0, 0.85);
+  position: relative;
+  z-index: 1; 
+  padding: 1em;     
+  margin: -1em; 
+  
+}
+
+ul#horizontal-list li:hover {
+  
+  background-color: #adadad;
+}
+
+ul#horizontal-list li:active {
+
+  border-style: inset;
+}
+
+ul#horizontal-list li .selected {
+
+  border-style: inset;
+}
+
+#header {
+  /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */ 
+
+  
+}
+
+#title {
+  
+  /*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+  border-style: solid;
+  border-color: #8b8b8b;
+  float: right;
+  width: 724px;
+  height: 64px;
+  margin-bottom: 30px;
+}
+
+#title h1 {
+  
+  /* background-color: lightblue; */
+}
+
+#icon {
+  border-style: solid;
+  border-color: #8b8b8b;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+#navigation {
+  height: 137px;
+  /* background-color: lightblue; */
+  border-style: solid;
+  border-color: #8b8b8b;
+  
+
+}
+
+
+
+#content {
+  padding: 20px;
+  /* background-color: lightblue; */
+  float: right;
+  width: 670px;
+}
+
+#img {
+  padding: 20px;
+  /* background-color: lightblue; */
+  width: 50px;
+  height: auto;
+  float: left;
+}
+
+#footer {
+  
+  clear: both;
+  /* background-color: lightblue; */
+  border-style: solid;
+  border-color: #8b8b8b;
+  margin-top: 200px;
+}
+
+
+table#albums {
+  background-color: darkgray;
+  box-shadow: 10px 10px #4b4b4b;
+  
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+table#albums img {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  border-style: outset;
+  }
+
+table#albums p {
+  border-style: outset;
+  background-color: darkgray;
+  margin: 10px;
+}
+
+table#albums a {
+  
+  text-decoration: none;
+  color: darkgray;
+
+}
+
+table#store th, td{
+  
+  border-style: solid;
+  border-color: #8b8b8b
+}
+
+table#shows {
+  
+  margin-left:auto; 
+  margin-right:auto;
+  width: 450px;
+}
+
+a.invisiblelink {
+
+  text-decoration: none;
+  color: black;
+
+}
